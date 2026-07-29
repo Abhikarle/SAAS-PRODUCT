@@ -53,7 +53,7 @@ function NavBar() {
                 key={link.name}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="text-lg text-slate-700 dark:text-slate-300 hover:text-blue-500 transition"
+                className="text-lg text-slate-700 dark:text-slate-300 hover:text-blue-500 hover:-translate-y-0.5 transition-all duration-300"
               >
                 {link.name}
               </a>
